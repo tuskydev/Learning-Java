@@ -1,12 +1,12 @@
-# DESCRIPTIVE-TITLE Solo Project 
-### A repo made to test Semantic-UI-React's NPM that has a popup modal that display's necessary info.
+# Learning the Basics of Java!!! ☕ Solo Project 
+### A repo made to grasp the foundation of Java in hopes of using it for 2 DSA courses.
 
 ### Things learned:
 * Learned how to make functionality for className "active" in navs and tabs
 * Sharpened React JSX and CSS Flexbox skills.
-- Learned how to combine two personal Solo Projects to make one dynamic project!
+* Learned how to combine two personal Solo Projects to make one dynamic project!
 
-### Overall, a productive project which allowed for better understanding of Pop Up Modals.
+### Overall, a productive project that has allowed me to learn my third(?) programming language.
 
 ## Preview of work done:
 ### Image of Pop-up-Bar displaying dynamic info and picures
@@ -51,3 +51,4 @@ https://react.semantic-ui.com/usage
 `
 https://www.npmjs.com/package/react-alice-carousel
 `
+## To install Java follow the link: https://www.java.com/en/
