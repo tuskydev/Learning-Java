@@ -2,10 +2,17 @@ package ForRandomUses;
 
 
 public class Main {
-  public float findSpecialInteger(float[] arr) {
-    float totalLength = (float) arr.length / 4;
+  public int findSpecialInteger(int[] arr) {
+    int currInt = arr.length / 2;
 
-    return totalLength;
+    while (True) {
+      int newInt = currInt / 2;
+      if (currInt == newInt) {
+        return newInt;
+      } else {
+
+      }
+    }
   }
 
   public static void main(String[] args) {
@@ -13,10 +20,10 @@ public class Main {
     Main mainObject = new Main();
 
     // Creating an array
-    float[] myArray = {1, 2, 2, 6, 6, 6, 6, 7, 10};
+    int[] myArray = {1, 2, 2, 6, 6, 6, 6, 7, 10};
 
     // Invoking the findSpecialInteger method and storing the result
-    float result = mainObject.findSpecialInteger(myArray);
+    int result = mainObject.findSpecialInteger(myArray);
 
     // Printing the result
     System.out.println("Total length: " + result);
