@@ -2,8 +2,9 @@ package ForRandomUses;
 
 
 public class Main {
-  public int findSpecialInteger(int[] arr) {
-    int totalLength = arr.length;
+  public float findSpecialInteger(float[] arr) {
+    float totalLength = (float) arr.length / 4;
+
     return totalLength;
   }
 
@@ -12,10 +13,10 @@ public class Main {
     Main mainObject = new Main();
 
     // Creating an array
-    int[] myArray = {1, 2, 2, 6, 6, 6, 6, 7, 10};
+    float[] myArray = {1, 2, 2, 6, 6, 6, 6, 7, 10};
 
     // Invoking the findSpecialInteger method and storing the result
-    int result = mainObject.findSpecialInteger(myArray);
+    float result = mainObject.findSpecialInteger(myArray);
 
     // Printing the result
     System.out.println("Total length: " + result);
