@@ -47,12 +47,16 @@ public class Program {
     //   System.out.println("ok");
     // }
 
-    int first = Integer.valueOf(reader.nextLine());
+    // int first = Integer.valueOf(reader.nextLine());
 
-    if (first < 0) {
-      System.out.println(first * -1);
-    } else {
-      System.out.println(first);
-    }
+    // if (first < 0) {
+    //   System.out.println(first * -1);
+    // } else {
+    //   System.out.println(first);
+    // }
+
+      
+
+
   }
 }
