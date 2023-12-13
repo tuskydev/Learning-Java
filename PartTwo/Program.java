@@ -55,8 +55,34 @@ public class Program {
     //   System.out.println(first);
     // }
 
-      
+    // int numOne = Integer.valueOf(reader.nextLine());
+    // int numTwo = Integer.valueOf(reader.nextLine());
 
+    // if (numOne > numTwo) {
+    //   System.out.println(numOne + " is greater than " + numTwo + ".");
+    // } else if (numOne < numTwo) {
+    //   System.out.println(numOne + " is smaller than " + numTwo + ".");
+    // } else {
+    //   System.out.println(numOne + " is equal to " + numTwo + ".");
+    // }
 
+    // int numbersRead = 0;
+    // int sum = 0;
+
+    // while (true) {
+    //   if (numbersRead == 5) {
+    //     break;
+    //   }
+
+    //   System.out.println("Input number");
+    //   sum = sum + Integer.valueOf(reader.nextLine());
+    //   numbersRead += 1;
+    // }
+
+    // System.out.println("The sum of the numbers is " + sum);
+
+    while (true) {
+      System.out.println("Blunt!");
+    }
   }
 }
