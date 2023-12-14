@@ -51,4 +51,5 @@ https://react.semantic-ui.com/usage
 `
 https://www.npmjs.com/package/react-alice-carousel
 `
-## To install Java follow the link: https://www.java.com/en/
+# [Course can be accessed here](https://java-programming.mooc.fi/)
+### To install Java follow the link: https://www.java.com/en/
