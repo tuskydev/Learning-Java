@@ -3,7 +3,7 @@ package PartTwo;
 import java.util.Scanner;
 
 public class Program {
-  public static void main(String[] main) {
+  public static void main(String[] args) {
     // Creating the scanner
     Scanner reader = new Scanner(System.in);
 
@@ -81,60 +81,15 @@ public class Program {
 
     // System.out.println("The sum of the numbers is " + sum);
 
-    // while (true) {
-    //   System.out.println("Blunt!");
-    // }
+    while (true) {
+        System.out.println("Shall we carry on?");
 
-    // int number = 1;
+        String input = reader.nextLine();
 
-    // while (true) {
-    //   System.out.println(number);
+        if (input.equals("no")) {
+            break;
+        }
 
-    //   if (number == 6) {
-    //     break;
-    //   }
-
-    //   number += 1;
-
-    // }
-    // System.out.println("Ready!");
-
-    // while (true) {
-    //   System.out.println("Exit? (y exits)");
-    //   String input = String.valueOf(reader.nextLine());
-
-    //   if (input.equals("y")) {
-    //     break;
-    //   } else {
-    //     System.out.println("Ok! Let's carry on!");
-    //   }
-    // }
-
-    // System.out.println("Ready!");
-
-
-    // while (true) {
-    //   System.out.println("Give a number:");
-
-    //   int input = Integer.valueOf(reader.nextLine());
-
-    //   if (input == 4) {
-    //     break;
-    //   }
-    // }
-
-    // while(true) {
-    //   System.out.println("Insert positive integers");
-    //   int input = Integer.valueOf(reader.nextLine());
-
-    //   if (input <= 0) {
-    //     System.out.println("Unfit number! Try again.");
-    //     continue;
-    //   }
-
-    //   System.out.println("Your input was " + input);
-    // }
-
-    
+    }
   }
 }
