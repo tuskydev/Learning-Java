@@ -3,7 +3,7 @@ package PartTwo;
 import java.util.Scanner;
 
 public class Program {
-  public static void main(String[] main) {
+  public static void main(String[] args) {
     // Creating the scanner
     Scanner reader = new Scanner(System.in);
 
@@ -82,7 +82,14 @@ public class Program {
     // System.out.println("The sum of the numbers is " + sum);
 
     while (true) {
-      System.out.println("Blunt!");
+        System.out.println("Shall we carry on?");
+        
+        String input = reader.nextLine();
+
+        if (input.equals("no")) {
+            break;
+        }
+        
     }
   }
 }
