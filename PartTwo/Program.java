@@ -93,7 +93,8 @@ public class Program {
         }
       /*/
 
-        int iteration = 0;
+        /*/
+        int count = 0;
         while (true) {
             System.out.println("Give a number: ");
             int input = Integer.valueOf(reader.nextLine());            
@@ -102,10 +103,31 @@ public class Program {
                 break;
             }
 
-            iteration += 1;
+            count += input;
+            
         }
 
-        System.out.println("Number of numbers: " + iteration);
+        System.out.println("Sum of numbers: " + count);
+        /*/
+
+        
+        float iteration = 0;
+        float count = 0;
+        
+        while (true) {
+            System.out.println("Give a number: ");
+            float input = Integer.valueOf(reader.nextLine());
+            
+            if (input == 0) {
+                System.out.println("Average of the numbers: " + count/iteration);
+                break;
+            }
+
+            iteration += 1;
+            count += input;
+
+        }
+        
         // FROM MOBILE
     }
 }
