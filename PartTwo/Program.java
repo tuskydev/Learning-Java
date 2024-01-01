@@ -81,15 +81,42 @@ public class Program {
 
     // System.out.println("The sum of the numbers is " + sum);
 
-    while (true) {
-        System.out.println("Shall we carry on?");
+    // while (true) {
+    //     System.out.println("Shall we carry on?");
 
-        String input = reader.nextLine();
+    //     String input = reader.nextLine();
 
-        if (input.equals("no")) {
+    //     if (input.equals("no")) {
+    //         break;
+    //     }
+
+    // }
+
+      // while (true) {
+      //   System.out.println("Give a number:");
+
+      //   int input = Integer.valueOf(reader.nextLine());
+
+      //   if (input == 4) {
+      //     break;
+      //   }
+
+      //   System.out.println(input);
+      // }
+
+        while (true) {
+          System.out.println("Give a number:");
+          int input = Integer.valueOf(reader.nextLine());
+
+          if (input < 0) {
+            System.out.println("Unsuitable number");
+            continue;
+          } else if (input == 0) {
             break;
+          } else {
+            System.out.println(input * input);
+          }
         }
 
-    }
   }
 }
